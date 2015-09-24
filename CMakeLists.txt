@@ -101,3 +101,6 @@ target_link_libraries (pp2d ${GTK2_LIBRARIES})
 
 add_executable (pprrr2d pprrr2d.cpp gfx.cpp)
 target_link_libraries (pprrr2d ${GTK2_LIBRARIES})
+
+add_executable (playfulChomp playfulChomp.cpp gfx.cpp)
+target_link_libraries (playfulChomp ${GTK2_LIBRARIES})
